@@ -1,0 +1,287 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure, footer, header, hgroup{display: block}
+
+html{font-size:100%}
+body{background-color:#fff; color:#555; font-family: 'Raleway', sans-serif} /* font-family:Arial, Helvetica;  */
+ol, ul{list-style: none}
+h1, h2, h3{font-weight:normal; color:#333; font-family: 'Raleway', sans-serif}
+h1{font-size:38px}
+h2{font-size:28px}
+h3{font-size:18px}
+a{text-decoration:none; color:#2490e3;}
+a:hover, a:active{text-decoration:none; outline:0; color:#63c7fb}
+hr{border:0; border-bottom:dotted 1px #999}
+sup{vertical-align: super; font-size: .6em; padding-left:2px}
+table{border-collapse:collapse; border-spacing:0}
+
+.container.clearfix{display: block}
+.clearfix{display: inline-block;}
+.clearfix:after {content: ".";display: block;clear: both;visibility: hidden;line-height: 0;height: 0}
+.clear{clear:both}
+.hide{display:none}
+.fl{float:left}
+.fr{float:right}
+.bold{font-weight:bold}
+.bb1{border-bottom:solid 1px #ccc}
+.bt1{border-top:solid 1px #ccc}
+.noborder{border:0 !important}
+.noborder-top{border-top:0 !important}
+.noborder-bottom{border-bottom:0 !important}
+.mt5{margin-top:5px;}.mt10{margin-top:10px;}.mt15{margin-top:15px;}.mt20{margin-top:20px;}.mt25{margin-top:25px;}.mt30{margin-top:30px;}
+.mb5{margin-bottom:5px}.mb10{margin-bottom:10px}.mb15{margin-bottom:15px}.mb20{margin-bottom:20px}.mb25{margin-bottom:25px}.mb30{margin-bottom:30px}
+form .btrow{position:relative; padding:28px 0}
+form select{font-size:.9em; border:solid 1px #ccc; height:34px; min-width:200px}
+
+section, header, footer{position:relative; max-width:1100px; margin:0 auto; clear:both; float:none; background-color:#fff;}
+.container{padding:12px 4px}
+#qa .container{padding-top:38px}
+header{border-bottom:solid 1px #ccc; overflow:hidden}
+header #logo{float:left; margin-right:22px; padding-right:22px; border-right:solid 1px #ddd;}
+header #sitename{color:#999; font-size:1.2em; letter-spacing:-1px; line-height:2em}
+
+.col-w100, .col-w80, .col-w75, .col-w70, .col-w65, .col-w60, .col-w55, .col-w50, .col-w45, .col-w40, .col-w35, .col-w30, .col-w25, .col-w20{position:relative; float:left; padding-bottom:14px}
+.col-w100{width:100%}.col-w80{width:80%}.col-w75{width:75%}.col-w70{width:70%}.col-w65{width:65%}.col-w60{width:60%}.col-w55{width:55%} 
+.col-w50{width:50%}.col-w45{width:45%}.col-w40{width:40%}.col-w35{width:35%}.col-w30{width:30%}.col-w25{width:25%}.col-w20{width:20%}
+.col-nested{padding:0}
+
+#home #intrographic{position:absolute; overflow:hidden; width:100%; top:0; right:0}
+#home #intrographic #ui-dd-option-homeimg{position:relative; float:right; padding:7em}
+#home #intrographic .circle{position:absolute; width:100%; height:100%; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%;}
+
+/* for Home Imgages instead of circles */
+#home #intrographic #ui-dd-option-homeimg.useimage{background: #fff url('img/img1_home.jpg') 100% 0 no-repeat;}
+#home #intrographic #ui-dd-option-homeimg.useimage .circle{display:none}
+
+/* ========================== CUSTOMIZABLE CIRCLE COLORS + CIRCLE OFFSET ====================================== */
+/* ========================== CUSTOMIZABLE CIRCLE COLORS + CIRCLE OFFSET ====================================== */
+/* Preserve z-index. Recommended MAX offet = 80 in any direction */
+/* R+G+B+Alpha (transparency: 1 = 100%) */
+#home #intrographic .circle#homecircle-1{z-index:10; top:140px; right:-10px; background-color:rgba(199, 255, 47, 0.3)} 
+#home #intrographic .circle#homecircle-2{z-index:20; top:-20px; right:-130px; background-color:rgba(255, 167, 47, 0.3)}  
+#home #intrographic .circle#homecircle-3{z-index:30; top:140px; right:-100px; background-color:rgba(195, 157, 239, 0.3)}
+#home #intrographic .circle#homecircle-4{z-index:40; top:-260px; right:-160px; background-color:rgba(47, 247, 255, 0.3)}
+#home #intrographic .circle#homecircle-5{z-index:50; top:-220px; right:-235px; background-color:rgba(36, 144, 227, 0.3)}
+/* ========================== CUSTOMIZABLE CIRCLE COLORS + CIRCLE OFFSET ====================================== */
+
+#home .col-a{z-index:100}
+#home .col-a .maintext h1{color:#555; font-size:3em; font-weight:normal; letter-spacing:-1px; padding-bottom:8px}
+#home .col-a .maintext p{color:#333; line-height:1.4em}
+
+#qa #question-wrapper{float:left; padding:40px 28px 24px; background-color:#2490e3; width:74%}
+#qa #question-arrow{position:absolute; border-left:24px solid #2490e3;border-top:24px solid transparent; border-bottom:24px solid transparent; content: ""; display:inline-block; height:0; width:0; margin:0;}
+#qa #question-wrapper h2{font-size:1.4em; line-height:1.2em; color:#fff}
+#qa #question-wrapper a.q-sm-wht{float:right; display:inline-block; margin-top:48px; font-size:75%; color:#fff}
+
+#qa .col-a #ui-dd-option-video{text-align:center}
+#qa .col-a #ui-dd-option-video .vid-enable{margin:0 0 28px 0}
+#qa .col-a #ui-dd-option-video .vid-disable{margin:6px 0 20px 0; padding:0 8px 0 4px}
+#qa .col-a #ui-dd-option-video #vid-player{background-color:#fff; padding:3px}
+#qa .col-a #ui-dd-option-video #vid-player img{width:100%} /* <==== Image is placeholder ONLY !! */
+
+#startform label{display:block; margin-bottom:8px}
+#startform .vid-play{position:absolute; top:41%; left:140px}
+
+form.response{}
+form.response ol{}
+form.response ol li{margin-bottom:28px; padding-bottom:28px; border-bottom:solid 1px #ccc}
+form.response ol li input{position:absolute;}
+form.response ol li label{display:inline-block; cursor:pointer}
+form.response ol li label p{margin-left:44px}
+form.response .btrow{padding:0}
+form.response .flowgroup{min-height:260px}
+
+/* Radio button image replace */
+form.response .flowgroup input[type="radio"]{visibility:hidden; position:absolute}
+form.response .flowgroup input[type="radio"] + label span{position:absolute; display:inline-block; width:28px; height:24px; background:transparent url('img/icons.png') 0 -59px no-repeat}
+form.response .flowgroup input[type="radio"] + label:hover span{background-position:-59px -59px}
+form.response .flowgroup input[type="radio"]:checked + label span{background-position:-125px -59px}
+
+.container .block{padding:18px 0; float:left}
+#result .block h3, #result .block h2{font-weight:bold; margin-bottom:4px}
+#result .col-a .block{width:96%}
+#result.nextsteps .col-a .block{width:100%}
+#result .col-a .block h3.label{color:#f69c00}
+#result .col-a .block p{font-size:90%; line-height:1.4em; margin-bottom:28px}
+#result .col-a .block ul li{position:relative; margin:30px 0; padding-left:33px}
+#result .col-a .block ul li span{position:absolute; top:0; left:0; display:inline-block; float:none; width:25px; height:25px; background:transparent url('img/icons.png') -509px -326px no-repeat}
+#result .col-b .block#ui-dd-option-plm{width:100%}
+#result .col-b #ui-dd-option-plm .plm-wrapper{margin:auto; width:96%}
+#result .col-b #ui-dd-option-plm .plm-wrapper .plm-header a{color:#000; font-size:90%; display:inline-block; width:32.2%; text-align:center; padding:4px 0 12px 0}
+#result .col-b #ui-dd-option-plm .plm-wrapper .plm-header a:last-child{float:right}
+#result .col-b #ui-dd-option-plm .plm-wrapper .plm-header a.active{background-color:#ececec}
+#result .col-b #ui-dd-option-plm .plm-wrapper .plm-header a img{width:88%; border:solid 1px #ccc;}
+#result .col-b #ui-dd-option-plm .plm-wrapper .plm-content{padding:18px 0; margin-bottom:8px; background-color:#ececec;
+    -webkit-border-radius:0 0 14px 14px; -moz-border-radius: 0 0 14px 14px; border-radius: 0 0 14px 14px;
+}
+#result .col-b #ui-dd-option-plm .plm-wrapper .plm-content h3{font-size:115%; width:86%; margin:auto}
+#result .col-b #ui-dd-option-plm .plm-wrapper .plm-content h3 span{font-size:80%; font-weight:normal; margin-left:6px}
+#result .col-b #ui-dd-option-plm .plm-wrapper .plm-content p{color:#000; font-size:13px; width:86%; margin:auto; padding:14px 0; line-height:1.4em}
+#result .col-b #ui-dd-option-plm .plm-wrapper .plm-content p strong{display:block; font-size:16px; color:#f69c00}
+
+.block#remember .icon-bulb{margin:auto; width:84px; height:84px; background:transparent url('img/icons.png') -115px -120px no-repeat}
+.block#remember ul li{position:relative; margin:30px 0; padding-left:33px}
+.block#remember h3{margin-top:8px}
+
+#result #nextOptions a{color:#000; display:block; position:relative; cursor:pointer; margin-bottom:28px; font-size:1.3em; padding:24px 0 24px 128px; background:#e6e6e6; border:solid 1px #ddd}
+#result #nextOptions a:hover{background:#dedede}
+#result #nextOptions a span{position:absolute; top:-6px; left:22px}
+
+#m-menu{display:none}
+nav{display:block; margin:8px 0 0; padding:0 4px}
+nav .bt.print{position:absolute; top:16px; right:4px}
+nav .bt.recBtn{float:left; margin:0 4px 4px 0}
+nav .bt.active{background-color:#63c7fb}
+
+.lbcontent h2{color:#2490e3; font-weight:bold; font-size:1.1em; padding-bottom:12px; border-bottom:solid 1px #ccc}
+.lbcontent p{font-size:90%; margin:14px 0; line-height:1.4em}
+.lbcontent ul li{margin:14px 0 0 24px; font-size:90%; list-style:disc}
+
+/* Lightbox forms */
+.lbcontent form{padding:24px 0 2px 0;}
+.lbcontent form .control-group{padding-bottom:18px}
+.lbcontent form .control-group h3{font-size:1em; font-weight:bold; padding-bottom:8px}
+.lbcontent form .control-group .control-label{font-weight:bold; margin-bottom:4px;}
+.lbcontent form .control-group input[type="text"]{font-size:1.1em; font-weight:normal; color:#555}
+.lbcontent form .control-group textarea{width:95%}
+
+footer{margin-top:0;  z-index:111}
+footer .container{border-top:solid 1px #ccc; background-color:#fff;}
+footer .info{color:#777; line-height:2.3em}
+footer .info .fl{margin-right:24px; padding-right:24px; border-right:solid 1px #ccc}
+footer .links{font-size:.75em; color:#bbb}
+footer ul li{display:inline; margin-left:12px;}
+footer ul li:first-child{margin:0}
+
+/* =========================================== Bullets & Icons ================================================ */
+.icon span{display:inline-block; float:left; background: url('img/icons.png') -9999px -9999px no-repeat}
+.icon.arrow-left-sm{line-height:2.3em}
+.icon.arrow-left-sm span{width:20px; height:26px; background-position:0 -114px}
+.icon.arrow-left-sm:hover span{background-position:-58px -114px}
+.icon.close{line-height:2.3em}
+.icon.close span{width:32px; height:28px; background-position:-68px -426px}
+.icon.close:hover span{background-position:-68px -478px}
+.icon.vid-play{line-height:2.3em}
+.icon.vid-play span{width:40px; height:32px; background-position:0 0}
+.icon.vid-enable{line-height:2.3em}
+.icon.vid-enable span{width:40px; height:32px; background-position:0 0}
+.icon.vid-disable{line-height:2.3em}
+.icon.vid-disable span{width:28px; height:26px; background-position:-68px -428px}
+.icon.mail-lg span{width:83px; height:83px; background-position:-477px 0}
+.icon.mail-lg:hover span{background-position:-368px 0}
+.icon.check-lg span{width:83px; height:83px; background-position:-477px -97px}
+.icon.check-lg:hover span{background-position:-368px -97px}
+.icon.talk-lg span{width:83px; height:83px; background-position:-477px -195px}
+.icon.talk-lg:hover span{background-position:-368px -195px}
+.icon.print{color:#2490e3; font-size:.8em; line-height:1.7em}
+.icon.print span{width:20px; height:20px; margin-right:4px; background-position:-125px -2px}
+.icon.print:hover{color:#63c7fb;}
+.icon.pdf{color:#222; font-size:.9em; line-height:1.8em}
+.icon.pdf span{width:22px; height:23px; margin-right:8px; background-position:-394px -403px}
+.icon.q-sm-wht span{float:none; width:16px; height:16px; background-color:#fff;-webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%;font-size:1.4em;font-weight:bold;color:#2490e3;text-align:center;padding:1px;line-height:1em;margin-right:6px}
+.icon.q-sm-wht span:after{content: "?"; font-family:Arial, Helvetica; }
+.icon.q-sm-wht:hover{color:#b5e6ff !important}
+.icon.q-sm-wht:hover span{background-color:#b5e6ff;}
+
+.icon.qa-prev,
+.icon.qa-next{float:left; margin-right:24px; text-align:center; color:#000}
+.icon.qa-prev span,
+.icon.qa-next span{float:none; display:block; margin-bottom:4px; width:38px; height:38px; background-color:#2490e3;-webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;padding:1px}
+.icon.qa-prev span{background-image url('img/icons.png'); background-repeat:no-repeat; background-position: -138px -476px}
+.icon.qa-next span{background-image url('img/icons.png'); background-repeat:no-repeat; background-position: -134px -423px}
+.icon.qa-prev:hover span, .icon.qa-next:hover span{background-color:#63c7fb}
+.icon.qa-prev:hover, .icon.qa-next:hover{color:#63c7fb}
+.icon.qa-next.btText span{background-image:none; width:122px; line-height:2.4em; color:#fff}
+/* =========================================== /End Bullets & Icons ================================================ */
+
+@media only screen and (max-width: 840px ) {
+    .col-w100, .col-w80, .col-w75, .col-w70, .col-w65, .col-w60, .col-w55, .col-w50, .col-w45, .col-w40, .col-w35, .col-w30, .col-w25, .col-w20{width:92%; margin:auto; float:none; padding-bottom:12px}
+    .col-nested{width:100%; padding:0}
+    
+    #qa .container{padding-top:12px;}
+	#home .col-a .maintext h1{color:#000; font-size:2.2em; text-shadow:1px 1px 1px #fff}
+    #home form label, #home .col-a .maintext p{font-size:90%; text-shadow:1px 1px 1px #fff}
+    #home #intrographic{
+        filter:alpha(opacity=30); /* IE */
+        -moz-opacity:0.3; /* Mozilla */
+        opacity: 0.3; /* CSS3 */
+    }
+    #home #intrographic .useimage{
+        filter:alpha(opacity=30); /* IE */
+        -moz-opacity:0.3; /* Mozilla */
+        opacity: 0.3; /* CSS3 */
+    }
+    
+    #qa #question-wrapper{margin-bottom:24px; padding:16px 16px 14px; width:92%}
+    #qa #question-wrapper h2{font-size:1.2em; line-height:1.2em}
+    #qa #question-wrapper a{margin-top:28px; font-size:75%}
+    #qa #question-arrow{bottom:0;vertical-align: bottom;border-left:24px solid transparent;border-right:24px solid transparent; border-top:28px solid #2490e3; height:0; width:0; margin:0;margin-bottom:-13px}
+    
+    form.response ol li{margin-bottom:22px; padding-bottom:22px; border-bottom:solid 1px #ccc}
+    form.response ol li label{font-size:90%; line-height:1.2em;}
+    
+    #result .col-a .block{width:100%}
+    #result .col-a .block ul li{}
+    #result .col-a .block ul li p{font-size:92%}
+    #result .col-b .block#remember .icon-bulb{margin:6px 0 0 0}
+    #result .col-b #ui-dd-option-plm .plm-wrapper .plm-header a{width:31.4%}
+    #result #nextOptions a{margin:12px 0}
+    
+    .block#remember > div:first-child{width:25% !important; float:left !important}
+    .block#remember > div:nth-child(2){width:75% !important; float:left !important}
+    .block#remember .icon-bulb{width:54px; height:54px; background:transparent url('img/icons.png') -127px -225px no-repeat}
+    .block#remember p{font-size:80%}
+    .block#remember h3{margin-top:0; font-size:90%}
+    
+    footer .info .fl{margin-right:24px; padding-right:0; border-right:0}
+    footer .links{background-color:#f5f5f5; padding:12px;}
+}
+
+@media only screen and (max-width: 580px) {
+    #home .col-a .maintext h1{font-size:1.8em}
+    #home form label, #home .col-a .maintext p{font-size:88%}
+    
+    #qa #question-wrapper{margin-bottom:8px}
+    #qa #question-wrapper h2{font-size:.9em}
+    #qa #question-wrapper a.q-sm-wht{margin-top:12px}
+    form.response ol li{font-size:.8em; margin-bottom:18px; padding-bottom:18px}
+    form.response .flowgroup{min-height:100px}
+
+    #result .col-b #ui-dd-option-plm .plm-wrapper .plm-header a{width:32.1%}
+    #result .block h3.label{font-size:.9em; margin:0}
+    #result .block h2{font-size:1em; margin:0}
+    #result .col-a .block{width:96%; padding:8px 0}
+    #result .col-a .block ul li{position:relative; margin:24px 0; font-size:90%}
+    #result .col-b #ui-dd-option-plm .plm-wrapper .plm-header a{font-size:80%; padding:4px 0 6px 0}
+    #result .col-b #ui-dd-option-plm .plm-wrapper .plm-content h3{font-size:95%}
+    #result .col-b #ui-dd-option-plm .plm-wrapper .plm-content p{font-size:12px; padding:10px 0}
+    #result .col-b #ui-dd-option-plm .plm-wrapper .plm-content p strong{font-size:14px}
+    #result #nextOptions a{width:79%; margin-bottom:20px; font-size:.9em; padding:18px 0 18px 68px}
+    #result #nextOptions a span{top:2px; left:4px}
+    
+    .icon.mail-lg span{width:52px; height:52px; background-position:-653px 0}
+    .icon.mail-lg:hover span{background-position:-586px 0}
+    .icon.check-lg span{width:52px; height:52px; background-position:-653px -59px}
+    .icon.check-lg:hover span{background-position:-586px -59px}
+    .icon.talk-lg span{width:52px; height:52px; background-position:-653px -118px}
+    .icon.talk-lg:hover span{background-position:-586px -118px}
+    .icon.arrow-left-sm span{width:36px; background-position:3px -117px}
+    .icon.arrow-left-sm:hover span{background-position:-55px -117px}
+    .icon.close span{width:36px; background-position:-67px -430px}
+    .icon.close:hover span{background-position:-67px -482px}
+
+    footer .container{padding-top:0; padding-bottom:0; font-size:12px !important; font-family:arial, sans-serif}
+    footer .container.links{padding:12px; font-size:11px !important}
+    footer .fl, footer .fr{float:none}
+    footer .info div{margin:0 !important; padding:4px 0; border-bottom:dotted 1px #ccc}
+    
+    #result #m-menu{
+        z-index:101; cursor:pointer;
+        display:block; position:absolute; top:-47px; right:14px; width:36px; height:32px; 
+        background:#d4d4d4 url('img/icons.png') -279px -316px no-repeat;
+        -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;
+    }
+    
+    nav{width:99%; display:none; z-index:100; position:absolute; top:-8px; padding-top:4px; background:#eee; box-shadow: 0 5px 12px #888;}
+    nav .print{display:none}
+    nav .bt.recBtn{width:100%; margin-right:0; margin-left:0; float:none; padding:6px 0 !important; line-height:1.8em !important; font-size:1.1em !important}
+}

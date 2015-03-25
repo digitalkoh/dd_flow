@@ -1,0 +1,11 @@
+#admin{font-family:arial, sans-serif}
+.admin-ui.admin-link{float:right; margin:0; padding:0}
+.admin-ui.admin-link:hover{color:#f00}
+
+#admin ul{margin:24px 0}
+#admin ul li{margin:0 14px 0; padding:14px 0; border-bottom:solid 1px #bbb}
+#admin ul li a{text-transform:uppercase; font-size:.8em; color:#fff; padding:4px; background:#888; float:left; display:inline-block; margin-right:8px}
+#admin ul li a.active{border-bottom:solid 5px #f00;}
+#admin ul li a:hover{background:#bbb;}
+#admin ul li .state{background-color:#fff; height:18px; width:24px; float:left; margin:0}
+#admin ul li span{float:right; font-size:80%; color:#999}

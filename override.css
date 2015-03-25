@@ -1,0 +1,154 @@
+/* ======== CUSTOM OVERRRIDE =====*/
+
+/* ============================================================================================================================================= */
+/* HOME CIRCLES */
+/* Please note: These CSS circles will be overridden by a staic image of circle for IE8 or less. File location: css/ie8.css */
+/* ============================================================================================================================================= */
+/*  Default:
+    #home #intrographic .circle#homecircle-1{z-index:10; top:140px; right:-10px; background-color:rgba(199, 255, 47, 0.3)} 
+    #home #intrographic .circle#homecircle-2{z-index:20; top:-20px; right:-130px; background-color:rgba(255, 167, 47, 0.3)}  
+    #home #intrographic .circle#homecircle-3{z-index:30; top:140px; right:-100px; background-color:rgba(195, 157, 239, 0.3)}
+    #home #intrographic .circle#homecircle-4{z-index:40; top:-260px; right:-160px; background-color:rgba(47, 247, 255, 0.3)}
+    #home #intrographic .circle#homecircle-5{z-index:50; top:-220px; right:-235px; background-color:rgba(36, 144, 227, 0.3)}
+    -- Preserve z-index. Recommended MAX offet = 80 in any direction -- 
+    -- R+G+B+Alpha (transparency: 1 = 100%) --
+*/
+#home #intrographic .circle#homecircle-1{} 
+#home #intrographic .circle#homecircle-2{}  
+#home #intrographic .circle#homecircle-3{}
+#home #intrographic .circle#homecircle-4{}
+#home #intrographic .circle#homecircle-5{}
+
+
+
+/* ============================================================================================================================================= */
+/* CUSTOM HOME IMAGE */
+/* for clients using custom image instead of circles */
+/* ============================================================================================================================================= */
+/*  Default:
+    #home #intrographic #circlewrapper.useimage{background:#fff url('img/img1_home.jpg') 100% 0 no-repeat} 
+*/
+#home #intrographic #circlewrapper.useimage{}
+
+
+
+/* ============================================================================================================================================= */
+/* LINK COLOR */
+/* ============================================================================================================================================= */
+/*  Default:
+    a{text-decoration:none; color:#2490e3;}
+    a:hover, a:active{text-decoration:none; outline:0; color:#63c7fb}
+*/
+a{}
+a:hover, a:active{}
+
+
+
+/* ============================================================================================================================================= */
+/* BUTTONS */
+/* ============================================================================================================================================= */
+/*  Default:
+    .bt.blueBtn {background-color: #2993e4}                 
+    .bt.blueBtn:hover {color:#fff; background-color:#63c7fb}
+    nav .bt.active{background-color:#63c7fb}                
+    nav .bt.orgBtn{background-color: #fa973e;} 
+*/             
+.bt.blueBtn {}                      /* Primary: rest */
+.bt.blueBtn:hover{}                 /* Primary: hover */
+nav .bt.active{}                    /* Navigation: active */
+nav .bt.orgBtn{}                    /* Navigation: oragne button */
+#question-wrapper #ui-dd-option-video .bt.ltblueBtn{}           /* QA: enable/disable video button */
+#question-wrapper #ui-dd-option-video .bt.ltblueBtn:hover{}     /* QA: enable/disable video button hover */
+
+
+
+/* ============================================================================================================================================= */
+/* CLIENT LOGO & PRODUCT NAME */
+/* use to edit properties of unusual logo dimensions provided by the client, otherwise should remain default */
+/* ============================================================================================================================================= */
+/* 
+    img width:[x]px or %
+    font-size: [x]em
+    line-height: [x]em
+    padding:[x]em
+*/
+header #logo{}
+header #logo img{}
+header #sitename{}
+@media only screen and (max-width: 580px) {
+    header #logo{}
+    header #logo img{}
+    header #sitename{}
+}
+
+
+
+/* ============================================================================================================================================= */
+/* TEXT COLOR */
+/* text colors are strongly reccomended to remain as default */
+/* ============================================================================================================================================= */
+body p{}                                    /* Default: paragraph */
+#home .col-a .maintext h1{}                 /* Home: heading home */
+#home .col-a .maintext p{}                  /* Home: paragraph */
+#qa #question-wrapper h2{}                  /* QA: questons */
+.response li label p{}                      /* QA: answers */
+#qa #question-wrapper a.q-sm-wht{}          /* QA: Why do we ask? link */
+#qa #question-wrapper a.q-sm-wht:hover{}    /* QA: Why do we ask? link hover*/
+#qa .icon.q-sm-wht span{}                   /* QA: Why do we ask Q icon */
+#qa .icon.q-sm-wht span:hover{}             /* QA: Why do we ask Q icon hover */
+.lbcontent h2{}                             /* Lightbox: title */
+.block h2{}                                 /* Results: heading 2 */
+.block h3{}                                 /* Results: heading 3 */
+.block .plm-content h3{}                    /* Results: PLM heading */
+#result .col-a .block h3.label{}            /* Results: heading 4 (left side) */
+#result .col-b #ui-dd-option-plm .plm-wrapper .plm-content p strong{}       /* Results: People Like Me bold text */
+#result .col-b #ui-dd-option-plm .plm-wrapper .plm-content p{}              /* Results: People Like Me body text */
+
+
+
+/* ============================================================================================================================================= */
+/* QUESTION BOX & ARROW  */
+/* ============================================================================================================================================= */
+/*  Default:
+    #qa #question-arrow{border-left: 24px solid #2490e3}
+    #qa #question-arrow{border-left: 24px solid #2490e3}
+*/
+#qa #question-wrapper{}
+#qa #question-arrow{}
+@media only screen and (max-width: 840px) {
+    /* Default: #qa #question-arrow{border-left:24px solid transparent; border-top:28px solid #2490e3} */
+    #qa #question-arrow{}
+}
+
+
+
+/* ============================================================================================================================================= */
+/* REMOVING ROUNDED CORNERS */
+/* Uncomment below to remove rounded corners for that particular element (speed uncomment tip: just close the first comment tag) */
+/* ============================================================================================================================================= */
+
+/* ========= Home pg: Get Started button */
+/* #home #startform .rnd{-webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0} /* */
+
+/* ========= QA pg: next/previous button */
+/* .icon.qa-next span,.icon.qa-prev span{-webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0} /* */
+
+/* ========= QA pg: question box */
+/* #question-wrapper.rnd{-webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0} /* */
+
+/* ========= QA pg: enable/disable video button */
+/* #question-wrapper #ui-dd-option-video .rnd{-webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0} /* */
+
+/* ========= Results pg: navigation button */
+/* nav a.rnd{-webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0} /* */
+
+/* ========= Results pg: People Like Me container */
+/* #result .col-b #ui-dd-option-plm .plm-wrapper .plm-content{-webkit-border-radius:0; -moz-border-radius:0; border-radius:0;} /* */
+
+/* ========= Results pg: Next Steps bars */
+/* #nextOptions a.rnd{-webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0} /* */
+
+/* ========= Lightbox: form buttons */
+/* .modal-body .btrow a.rnd{-webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0} /* */
+
+

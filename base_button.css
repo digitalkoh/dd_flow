@@ -1,0 +1,63 @@
+/* ==================== bt ==================== */
+.bt{display: inline-block;color: #fff;font-weight: normal;width:auto;}
+
+/* size ======================= */
+.bt.recBtn{width:auto; height:30px; padding:8px 18px; line-height:2em; text-align:center; font-size:15px}
+.bt.mdBtn{width:80px; height:80px; padding:12px; line-height:5.3em; font-size:15px}
+.bt.smBtn{width:40px; height:40px; padding:6px; line-height:4.3em; font-size:12px}
+.bt.btText{}
+
+/* round edge ======================= */
+.bt.circle{-webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%;}
+.rnd{-webkit-border-radius: 14px; -moz-border-radius: 14px; border-radius: 14px;}
+
+/* blue ======================= */
+.bt.blueBtn {background-color: #2993e4}
+.bt.blueBtn:hover {color:#fff; background-color:#63c7fb}
+
+/* lt. blue ======================= */
+.bt.ltblueBtn {background-color: #63c7fb}
+.bt.ltblueBtn:hover {color:#fff; background-color:#84d5ff}
+
+/* orange ======================= */
+.bt.orgBtn {background-color: #fa973e;}
+.bt.orgBtn:hover {color:#fff;background-color: #fab93e;}
+
+/* black ======================= */
+.bt.blkBtn {background-color: #777777}
+.bt.blkBtn:hover {color:#fff;background-color: #000000;	}
+
+/* white ======================= */
+.bt.whtBtn{color:#2993e4; background-color: #fff}
+.bt.whtBtn:hover{color:#63c7fb; background-color:#f4f4f4}
+
+/* neutral ======================= */
+.bt.neutral {background-color: #cccccc;}
+.bt.neutral:hover {color:#fff; background-color: #cccccc;}
+
+/* More Info button ==================== */
+.moreInfoIcon{position:relative; cursor:pointer; font-weight:normal; padding:2px; 
+	display:inline-block; margin:0 0 0 14px; top:-3px; text-align:center; width:13px; height:13px; color:#fff; font-size:12px; background-color:#4c99e8;
+	-webkit-border-radius: 4px; 
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+.moreInfoIcon:after{content:"?"}
+.moreInfoIcon:hover{color:#fff; background-color:#7cbafa;}
+.moreInfoIcon.infront{margin:0 8px 0 4px; top:-1px;}
+
+/* Question mark button ==================== */
+.questionLg{position:relative; font-weight:normal; padding:2px; 
+	display:inline-block; margin:0 3px 0 0; text-align:center; width:13px; height:13px; color:#fff; font-size:13px; 
+	background-color:#fcb200;
+	-webkit-border-radius: 12px; 
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+}
+.questionLg:after{content:"?"}
+
+@media only screen and (max-width: 780px ) {
+    nav .bt.recBtn{height:32px; padding-left:8px; padding-right:8px; line-height:1.2em; text-align:center; font-size:13px}
+    .rnd{-webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px;}
+}
+

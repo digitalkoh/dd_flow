@@ -1,0 +1,8 @@
+/* ie */
+form.response ol li label p{cursor:pointer}
+form.response .flowgroup input[type="radio"] + label.selected span{background-position:-125px -59px}
+
+
+/* Static Default Home img for IE */
+#home #intrographic #ui-dd-option-homeimg{background: #fff url('../img/home_imgcrop_default_ie.png') 0 0 no-repeat;}
+#home #intrographic .circle{display:none}
