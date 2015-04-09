@@ -1,5 +1,5 @@
 <div id="next-email" class="lbcontent hide">
-    <h2>Send Me My Suggestions</h2>
+    <h2>Text</h2>
     <div class="modal-body">
         <form>
             <div class="control-group">
