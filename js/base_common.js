@@ -99,7 +99,19 @@ $(document).ready(function () {
             $(this).toggleClass("vid-enable", "vid-disable");
         });
         centerElementVertical(); // re-center the arrow after video player is hiiden
-    } 
+    }
+    
+    // Home Video Button
+    $("#ui-dd-option-homevideo").click(function(){
+        var bt = $(this);
+        $("#vid-home").toggle(function(){
+             $(bt).toggleText("Disable Video", "Enable Video");
+        });
+        
+        if( $("#vid-home").is(":visible")){
+            scrollTo("#vid-home");
+        }
+    })
     
     // PLM text population
     if($("#ui-dd-option-plm").length){

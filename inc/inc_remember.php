@@ -4,9 +4,9 @@
         <div class="icon-bulb"></div>
     </div>
     
-    <h3>Remember:</h3>
+    <h3>Text:</h3>
     <p>
-        You usually pay less for the medical services you receive when you use doctors and hospitals in the network due to negotiated discounts.
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     </p>
 
 </div><!-- /.block -->

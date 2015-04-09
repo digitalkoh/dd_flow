@@ -7,7 +7,7 @@
                     <?php include 'inc/inc_qa_video.php' ?>
                     
                     <h2><!-- dynamic text --></h2>
-                    <a href="#" class="icon q-sm-wht fancybox">Why do we ask?</a>
+                    <a href="#" class="icon q-sm-wht fancybox">WHy text?</a>
                 </div>
                 <div id="question-arrow" class="cev-child"></div>
                 <div class="clear"></div>

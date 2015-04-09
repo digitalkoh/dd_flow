@@ -1,7 +1,7 @@
 <footer>
     
 	<div class="container info clearfix">
-        <div class="fl"><a href="#" id="ui-dd-option-backto" class="icon arrow-left-sm">Back to Medical Plan Kit</a></div>
+        <div class="fl"><a href="#" id="ui-dd-option-backto" class="icon arrow-left-sm">Back to Some Place</a></div>
         
         <div class="fl exit hide"><a href="#" id="ui-dd-option-backto" class="icon close">Exit</a></div>
         
@@ -17,8 +17,8 @@
     
     <div class="container links clearfix">
         <div id="sig" class="fl">
-            <div>Delivered by Aon</div>
-            <div>&copy; 2012-14 Aon plc</div>
+            <div>My Company</div>
+            <div>&copy; 2012-14 My Co</div>
         </div>
         
         <div id="legal" class="fr">

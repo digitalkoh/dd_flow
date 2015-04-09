@@ -4,16 +4,16 @@
 	<div class="container clearfix">
         <div class="col-a col-w100">
             <div class="block bb1">
-                <div class="col-nested col-w25"><h3 class="label">Suggested Plan</h3></div>
-                <div class="col-nested col-w75"><h2>Vision Plan</h2></div>
+                <div class="col-nested col-w25"><h3 class="label">Some Plan</h3></div>
+                <div class="col-nested col-w75"><h2>Some Plan</h2></div>
                 <div class="clear"></div>
             </div><!-- /.block -->
             
             <div class="block bb1">
-                <div class="col-nested col-w25"><h3 class="label">Why this option?</h3></div>
+                <div class="col-nested col-w25"><h3 class="label">Text?</h3></div>
                 <div class="col-nested col-w75">
                     <p>
-                        The Vision Plan features a $10 copay for eye exams. The plan pays up to $175 for frames (plus 20% off the cost over $175). You’ll pay a $10 copay for most lenses, while the plan pays a significant portion of the cost of contact lenses. Also, LASIK and PRK vision correction services are available at 15% off the retail price.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     </p>
                 </div>
                 <div class="clear"></div>

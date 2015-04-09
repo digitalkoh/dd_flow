@@ -66,6 +66,7 @@ header #sitename{color:#999; font-size:1.2em; letter-spacing:-1px; line-height:2
 #home .col-a{z-index:100}
 #home .col-a .maintext h1{color:#555; font-size:3em; font-weight:normal; letter-spacing:-1px; padding-bottom:8px}
 #home .col-a .maintext p{color:#333; line-height:1.4em}
+#home .col-b#vid-home div{position:absolute; z-index:200; padding:24px}
 
 #qa #question-wrapper{float:left; padding:40px 28px 24px; background-color:#2490e3; width:74%}
 #qa #question-arrow{position:absolute; border-left:24px solid #2490e3;border-top:24px solid transparent; border-bottom:24px solid transparent; content: ""; display:inline-block; height:0; width:0; margin:0;}
@@ -210,6 +211,8 @@ footer ul li:first-child{margin:0}
         -moz-opacity:0.3; /* Mozilla */
         opacity: 0.3; /* CSS3 */
     }
+    
+    #home .col-b#vid-home div{position:relative; padding:0}
     
     #qa #question-wrapper{margin-bottom:24px; padding:16px 16px 14px; width:92%}
     #qa #question-wrapper h2{font-size:1.2em; line-height:1.2em}
