@@ -3,7 +3,7 @@
     <div class="modal-body">
         <form>
             <div class="control-group mb20">
-                <h3>Lorem ipsum dolor sit amet.</h3>
+                <h3>Did you find this tool helpful?</h3>
                 <label style="margin-right:18px">
                     <input type="radio" name="isToolHelpful" id="isToolHelpfulYes" value="Yes" onclick="javascript: toolHelpful('Yes');">Yes
                 </label>
@@ -13,7 +13,7 @@
             </div>
             
             <div class="control-group">
-                <h3> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                <h3>Are you planning to enroll in the plan this tool suggested?</h3>
                  <label style="margin-right:18px">
                     <input type="radio" name="enrollPlan" id="enrollPlanYes" value="Yes" onclick="javascript: planEnroll('Yes');">
                     &nbsp;Yes

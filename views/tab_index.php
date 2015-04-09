@@ -18,7 +18,7 @@
                 <form name="startform" id="startform" class="mt20">
                     
                     <div class="option-population" id="ui-dd-option-population">
-                        <label> Lorem ipsum dolor sit amet, consectetur.</label>
+                        <label>To  get started, tell us who you are.</label>
                         <select>
                             <option value="0">Select</option>
                             <option value="1">Population One</option>
@@ -28,8 +28,8 @@
                     </div>
                     
                     <div class="btrow">
-                        <a href="?section=qa" class="bt mdBtn rnd blueBtn">Start</a>
-                        <a href="#" class="icon vid-play" id="ui-dd-option-homevideo">On Video</a>
+                        <a href="?section=qa" class="bt mdBtn rnd blueBtn">Get Started</a>
+                        <a href="#" class="icon vid-play" id="ui-dd-option-homevideo">Enable Video</a>
                     </div>
                 </form>
             </div><!-- /.maintext -->
